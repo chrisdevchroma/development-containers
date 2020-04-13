@@ -2,7 +2,7 @@ FROM ubuntu:focal
 RUN apt update &&\
     DEBIAN_FRONTEND=noninteractive apt -y install \
     lsb-release software-properties-common \
-    build-essential gdb valgrind \
+    build-essential gdb valgrind doxygen \
     git wget curl unzip unrar tar cmake \
     gcc-7 g++-7 gcc-8 g++-8 gcc-9 g++-9 gcc-10 g++-10 \
     clang-6.0 clang-7 clang-8 clang-9 clang-10 \
